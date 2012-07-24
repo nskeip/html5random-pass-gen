@@ -18,27 +18,27 @@
     <div class="container">
       <div class="row">
         <div class="main span4 offset4">
-          <div class="result">AsDf3x</div>
+          <div class="result" data-bind="text: result">AsDf3x</div>
           <div class="button-container form-actions control-group">
-            <button id="generate-button" class="btn">
+            <button id="generate-button" class="btn" data-bind="click: generate">
               Create
             </button>
           </div>
         </div>
       </div>
     </div>
-<script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
-<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script>
+<!--script src="//ajax.googleapis.com/ajax/libs/jquery/1.7.2/jquery.min.js"></script>
+<script>window.jQuery || document.write('<script src="js/libs/jquery-1.7.2.min.js"><\/script>')</script-->
 
 <script src="js/libs/bootstrap/bootstrap.min.js"></script>
-
+<script src="js/libs/knockout-2.1.0.js" type="text/javascript"></script>
 <script src="js/script.js"></script>
-<script>
+<!--script>
   var _gaq=[['_setAccount','UA-XXXXX-X'],['_trackPageview']];
   (function(d,t){var g=d.createElement(t),s=d.getElementsByTagName(t)[0];
   g.src=('https:'==location.protocol?'//ssl':'//www')+'.google-analytics.com/ga.js';
   s.parentNode.insertBefore(g,s)}(document,'script'));
-</script>
+</script-->
 
 </body>
 </html>
