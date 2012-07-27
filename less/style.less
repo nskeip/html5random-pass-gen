@@ -1,6 +1,10 @@
 @import "bootstrap/bootstrap.less";
 @import "bootstrap/responsive.less";
 
+body {
+    padding: 0;
+}
+
 .result {
     font-size: 72px;
     line-height: 72px;
@@ -8,11 +12,7 @@
 }
 
 .button-container {
-    text-align: right;
-}
-
-.main {
-    
+    text-align: center;
 }
 
 /* ===== Primary Styles ========================================================
@@ -24,4 +24,8 @@
   .main {
     margin-top: 250px;
   }
+}
+
+@media only screen and (max-width: 400px) {
+    /* Style adjustments for viewports that meet the condition */
 }

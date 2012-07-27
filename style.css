@@ -7384,13 +7384,16 @@ a.badge:hover {
     overflow: visible !important;
   }
 }
+body {
+  padding: 0;
+}
 .result {
   font-size: 72px;
   line-height: 72px;
   text-align: center;
 }
 .button-container {
-  text-align: right;
+  text-align: center;
 }
 /* ===== Primary Styles ========================================================
    Author:
@@ -7400,4 +7403,7 @@ a.badge:hover {
   .main {
     margin-top: 250px;
   }
+}
+@media only screen and (max-width: 400px) {
+  /* Style adjustments for viewports that meet the condition */
 }
